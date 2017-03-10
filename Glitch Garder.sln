@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B5E00C60-6A0A-3768-4FEB-9AD5F905C3E9}") = "Glitch Garder", "Assembly-CSharp.csproj", "{B396E8EF-2A7A-CABE-CCAF-028E0B3E4558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B396E8EF-2A7A-CABE-CCAF-028E0B3E4558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B396E8EF-2A7A-CABE-CCAF-028E0B3E4558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B396E8EF-2A7A-CABE-CCAF-028E0B3E4558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B396E8EF-2A7A-CABE-CCAF-028E0B3E4558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
