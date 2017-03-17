@@ -8,7 +8,14 @@ public class LevelManager : MonoBehaviour {
 
 	void Start()
 	{
-		Invoke("LoadNextLevel", timeToLoadNextLevel);
+		if (timeToLoadNextLevel == 0f)
+		{
+			Debug.Log("Level auto load disabled");
+		}
+		else
+		{
+			Invoke("LoadNextLevel", timeToLoadNextLevel);
+		}
 	}
 
 	public void LoadLevel(string name){
@@ -16,7 +23,8 @@ public class LevelManager : MonoBehaviour {
 		SceneManager.LoadScene (name);
 	}
 
-	public void QuitRequest(){
+	public void QuitRequest()
+	{
 		Debug.Log ("Quit requested");
 		Application.Quit ();
 	}
