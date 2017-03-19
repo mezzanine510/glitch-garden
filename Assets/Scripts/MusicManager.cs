@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour {
 
@@ -22,7 +23,7 @@ public class MusicManager : MonoBehaviour {
 	{
 		AudioClip thisLevelMusic = levelMusicChangeArray[level];
 
-		if (thisLevelMusic) // If there's some music attached to the array:
+		if (thisLevelMusic && audioSource.clip != thisLevelMusic) // If there's some music attached to the array:
 		{
 			audioSource.clip = thisLevelMusic;
 			audioSource.loop = true;
