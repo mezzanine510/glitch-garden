@@ -284,7 +284,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34ed5304f1d174844a770fa43f5fcab0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3cf6ad6287cbf42068bcc210b8935350, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -412,6 +412,11 @@ Prefab:
       propertyPath: timeToLoadNextLevel
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114475426089591550, guid: 1db63b8b3aeeb6545b667a8da3aea528,
+        type: 2}
+      propertyPath: secondsToLoadNextLevel
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1db63b8b3aeeb6545b667a8da3aea528, type: 2}
   m_IsPrefabParent: 0
@@ -523,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 914b8a75977ed47209fdf798a93ddac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToLoadNextLevel: 5
+  secondsToLoadNextLevel: 0
 --- !u!95 &1297154779
 Animator:
   serializedVersion: 3
@@ -810,10 +815,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelMusicChangeArray:
-  - {fileID: 8300000, guid: 3cf6ad6287cbf42068bcc210b8935350, type: 3}
-  - {fileID: 8300000, guid: 3cf6ad6287cbf42068bcc210b8935350, type: 3}
-  - {fileID: 8300000, guid: 3cf6ad6287cbf42068bcc210b8935350, type: 3}
-  - {fileID: 8300000, guid: 67ef6cad17d6d964b9356d2b6675237f, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

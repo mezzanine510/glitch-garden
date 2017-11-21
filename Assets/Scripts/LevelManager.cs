@@ -4,17 +4,17 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-	public float timeToLoadNextLevel;
+	public float secondsToLoadNextLevel;
 
 	void Start()
 	{
-		if (timeToLoadNextLevel == 0f)
+		if (secondsToLoadNextLevel > 0f)
 		{
-			Debug.Log("Level auto load disabled");
+			Invoke("LoadNextLevel", secondsToLoadNextLevel);
 		}
 		else
 		{
-			Invoke("LoadNextLevel", timeToLoadNextLevel);
+			Debug.Log("Level auto load disabled, use a positive number in seconds");
 		}
 	}
 
