@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 95619565385520318}
   - component: {fileID: 61051457771272334}
   - component: {fileID: 114804426349942150}
+  - component: {fileID: 114886970533065418}
   m_Layer: 0
   m_Name: Star Trophy
   m_TagString: Untagged
@@ -232,6 +233,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac495e0f24bc4d4b8d8f4a612a3cfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114886970533065418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955585598439144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6e8b2eb1f2aa943896eea1f353691b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 500
 --- !u!212 &212312663230525986
 SpriteRenderer:
   m_ObjectHideFlags: 1
